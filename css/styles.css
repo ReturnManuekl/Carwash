@@ -25,7 +25,7 @@ body {
     height: 100vh;
 }
 
-h1 {
+.titulo-autolavado {
     font-size: 80px;
     font-weight: 600;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -43,7 +43,7 @@ p {
     margin-bottom: 80px;
 }
 
-button {
+.boton-entrar {
     margin: 0;
     font-family: monospace;
     background-color: #0f5ebb;
@@ -53,6 +53,7 @@ button {
     font-size: 40px;
     font-weight: 600;
     color: aliceblue;
+    cursor: pointer;
 }
 
 .entrar {
@@ -136,3 +137,144 @@ label {
 a:hover {
     color:#072e5c;
 }
+
+/*Dashboard*/
+
+.navegacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #0f5ebb;
+    position: fixed;
+    width: 100%;
+    height: 55px;
+}
+
+.boton-encabezado {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.main-dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.titulo-dash {
+    font-size: 55px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 48px;
+}
+
+.caja-mayor {
+    height: 520px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.caja-menor1, .caja-menor2 {
+    width: 50%;
+    height: 95%;
+    margin: 10px;
+}
+
+.caja-menor1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.caja-menor2 {
+    border: #a3a3a3 1px solid;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja1 {
+    border: #a3a3a3 1px solid;
+    border-radius: 10px;
+    height: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja2 {
+    border: #a3a3a3 1px solid;
+    border-radius: 10px;
+    height: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.boton-cita {
+    margin-top: 70px;
+    font-family: monospace;
+    background-color: black;
+    border-radius: 40px;
+    border: 0px;
+    padding: 12px 245px;
+    font-size: 25px;
+    font-weight: 600;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+table {
+    table-layout: fixed;
+    width: 95%;
+    border-collapse: collapse;
+    
+}
+
+tr, th, td {
+    border: black 1px solid;
+}
+
+th {
+    height: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.titulos1 {
+    background-color: #f3b157;
+}
+
+.titulos2 {
+    background-color: black;
+}
+
+td {
+    height: 40px;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+caption {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+}
+
+
