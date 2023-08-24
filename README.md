@@ -2,6 +2,7 @@
 
 > This is a web site to manage your car wash
 
+![Screenshot](https://raw.githubusercontent.com/ReturnManuekl/Carwash/feature/CR-13-carwash/imagenes/Captura.PNG)
 
 ## Live Version
 
